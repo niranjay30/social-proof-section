@@ -1,0 +1,199 @@
+body{
+  font-family: "Spartan";
+  font-weight: 500;
+  background: url("../images/bg-pattern-top-desktop.svg") top left no-repeat, url("../images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+h2{
+  color: hsl(0, 0%, 100%);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+h3{
+  color: hsl(333, 80%, 67%);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+/* .........................Header......................... */
+
+.heading-container{
+  background-image: url(/images/bg-pattern-top-desktop.svg);
+  padding: 5rem 0 3rem;
+}
+
+.heading-content{
+  padding-right: 5rem;
+}
+
+.tagline{
+  color: hsl(303, 10%, 53%);
+}
+
+.rating-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rating{
+  width: 25rem;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1.75rem;
+}
+
+.rating img{
+  padding-right: 0.25rem;
+}
+
+.rating p{
+  color: hsl(300, 43%, 22%);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: inline;
+  padding-left: 1.25rem;
+}
+
+.one{
+  margin-right: 6rem;
+}
+
+.two{
+  margin-right: 3rem;
+}
+
+@media (max-width: 375px) {
+  body{
+    background: url("../images/bg-pattern-top-mobile.svg") top left no-repeat, url("../images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
+  }
+
+  .heading-container{
+    text-align: center;
+  }
+
+  .heading-content{
+    width: auto;
+    padding: 1rem 2.25rem;
+  }
+
+  .tagline{
+    font-size: 0.75rem;
+    padding-top: 0.75rem;
+  }
+
+  .one{
+    margin-right: 0;
+  }
+
+  .two{
+    margin-right: 0;
+  }
+
+  .rating-container{
+    align-items: center;
+  }
+
+  .rating{
+    width: 90%;
+  }
+
+  .rating p{
+    padding: 0;
+    font-size: 0.75rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 0.8rem;
+  }
+
+  h3{
+    font-size: 0.8rem;
+  }
+}
+
+/* .....................Testimonials.................... */
+
+.photo{
+  float: left;
+  border-radius: 50rem;
+  width: 15%;
+  height: auto;
+}
+
+.testimonial-container{
+  padding: 0;
+}
+
+.testimonial{
+  height: 16rem;
+  background: hsl(300, 43%, 22%);
+  border-radius: 1rem;
+  padding: 2.5rem 1.75rem 2rem;
+}
+
+.testimonial:last-child{
+  margin-right: 0;
+}
+
+.testimonial-heading-container{
+  padding-left: 5rem;
+}
+
+.testimonial-heading{
+  margin-top: 0.5rem;
+}
+
+.testimonial p{
+  color: hsl(0, 0%, 100%);
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding-top: 1rem;
+}
+
+.t-two{
+  margin-top: 1.5rem;
+}
+
+.t-three{
+  margin-top: 3rem;
+}
+
+@media (max-width: 375px) {
+  .testimonial-heading-container{
+    padding-left: 4rem;
+  }
+
+  .testimonial{
+    width: 90%;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .photo{
+    margin-top: 0.5rem;
+  }
+}
+
+/* ......................Footer....................... */
+
+.attribution{
+  text-align: center;
+}
+
+.attribution p{
+  margin: 0;
+  padding: 3rem 0;
+}
