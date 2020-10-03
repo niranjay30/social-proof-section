@@ -71,7 +71,7 @@ h3{
   margin-right: 3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 575.98px) {
   body{
     background: url("../images/bg-pattern-top-mobile.svg") top left no-repeat, url("../images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
   }
@@ -171,7 +171,7 @@ h3{
   margin-top: 3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 575.98px) {
   .testimonial-heading-container{
     padding-left: 4rem;
   }
